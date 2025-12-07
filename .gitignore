@@ -1,0 +1,19 @@
+# ---- ignore everything (including dotfiles) ----
+*
+.*
+
+# ---- explicitly keep these root files ----
+!/.gitignore
+!/.gitattributes
+!/compose.yaml
+!/README.md
+
+# ---- unignore directories that lead to files we want ----
+!/data/
+!/data/config/
+!/data/plugins/
+!/data/plugins/Geyser-Spigot/
+
+# ---- explicitly unignore the exact files we want ----
+!/data/config/paper-global.yml
+!/data/plugins/Geyser-Spigot/config.yml
